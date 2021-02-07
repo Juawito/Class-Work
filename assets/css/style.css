@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*top of page including the logo*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*changed the div tag to the corresponding nav tag*/
+/*styling the navigation bar*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +32,11 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*div changed to nav tag*/
 header nav ul {
     list-style-type: none;
 }
-
+/*div tag changed to nav*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*background picture */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,12 +59,13 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*changed the .content class to the main tag*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/*grouped all the images in the main tag together*/
 main img{
     max-height: 200px;
 }
@@ -78,6 +80,7 @@ main img{
     float: right;
     margin-left: 25px;
 }
+/*grouped all the classes in the main tag together and applied the same styles */
 .content-style {
     margin-bottom: 20px;
     padding: 50px;
@@ -86,12 +89,12 @@ main img{
     background-color: #0072bb;
     color: #ffffff;
 }
+/*grouped all seperate h2 tags from the main tag together*/
 .content-style h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-
+/*created the aside tag to hold the styles for all aside content except images*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,24 +107,25 @@ aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/*grouped all images in the aside tag and applied the same styles*/
 .aside-style img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*combined all seperate h3 tags together*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*changed the .footer class to footer element*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-footer h2 {
+/*changed the footer h2 to footer h4*/
+footer h4 {
     font-size: 20px;
 }
